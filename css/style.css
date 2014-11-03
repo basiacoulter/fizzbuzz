@@ -1,0 +1,25 @@
+body {
+	background-color: #aaa;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #333;
+}
+#numbers {
+	width: 15%;
+	margin: 3em auto;
+
+}
+p {
+	border-bottom: 1px solid #ccc;
+	display: block;
+	padding-top: 0.4em;
+	margin: 0;
+	padding-left: 5em;
+}
+p:nth-child(3n) {
+	background-color: #bbb;
+}
+p:nth-child(5n) {
+	background-color: #ccc;
+}
